@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import App from './pages/index';
-
+import UnderConstruction from './pages/underConstruction';
 
 ReactDOM.render(
   <React.StrictMode>
-      <App />
+      <UnderConstruction />
   </React.StrictMode>,
   document.getElementById('root')
 );
