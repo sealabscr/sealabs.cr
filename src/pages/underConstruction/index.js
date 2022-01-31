@@ -49,7 +49,7 @@ const UnderConstruction = () => {
     )
   }
 
-  return (
+  return (    
     <Box>
       <Helmet>
         <title>Sealabs Technology</title>
@@ -62,9 +62,9 @@ const UnderConstruction = () => {
         <meta property="og:image" content={MetaData.img} />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title"  content={MetaData.title} />
-        <meta property="twitter:description"  content={MetaData.description} />
-        <meta property="twitter:image"  content={MetaData.img} />
+        <meta property="twitter:title" content={MetaData.title} />
+        <meta property="twitter:description" content={MetaData.description} />
+        <meta property="twitter:image" content={MetaData.img} />
       </Helmet>
       <Header />
       <Content />
