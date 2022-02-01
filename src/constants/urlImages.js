@@ -1,0 +1,1 @@
+export const sealabs_logo_URL = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/logo_sealabs.png"
