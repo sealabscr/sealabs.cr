@@ -1,0 +1,1 @@
+export const MAIN_WRAPPER = "1200px"
