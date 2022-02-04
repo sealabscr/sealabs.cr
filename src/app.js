@@ -5,7 +5,7 @@ import getTheme from './theme';
 
 const App = () => {
     const theme = getTheme()
-    console.log("theme",theme)
+    
     return (    
         <ThemeProvider  theme={theme}>
             <LandingPage />

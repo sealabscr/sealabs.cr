@@ -6,6 +6,9 @@ const breakpoints = {
     secondary: {
       main: '#0C4160',
     },
+    grey: {
+      main: '#21B6A8',
+    },
     white: {
         main: '#FFFFFF',
       },

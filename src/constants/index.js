@@ -1,3 +1,4 @@
-import * as urlIamges from './urlImages'
+import * as URL_IMAGES from './urlImages'
+import * as DIMENSIONS from './dimesion'
 
-export { urlIamges}
+export { URL_IMAGES, DIMENSIONS }
