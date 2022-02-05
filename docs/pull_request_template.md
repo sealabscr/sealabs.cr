@@ -5,4 +5,4 @@ Please include a summary of the change
 Close issue 
 
 # Responsible for review changes
-Please mention
+Please mention reviewers
