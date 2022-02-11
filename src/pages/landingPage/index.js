@@ -108,13 +108,13 @@ const LandingPage = () => {
                 <Grid item xs={12} md={6}>
                   <Typography variant="h2" component="h2" color="secondary"  style={{marginBottom: '30px'}}>Mission</Typography>
                   <Typography variant="body1" component="p" style={{color: '#98A4B0', textAlign: 'justify'}}>
-                    We are passionate about local growth, so that through an exception service in software development we can expand and facilitate the tasks of our customers efficiently, safely and reliably.
+                    We are passionate about local growth, so that through an exceptional service in software development we can expand and facilitate our customers’ tasks efficiently, safely and reliably.
                   </Typography>
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <Typography variant="h2" component="h2" color="secondary" style={{marginBottom: '30px'}}>Vision</Typography>
                   <Typography variant="body1" component="p" style={{color: '#98A4B0', textAlign: 'justify'}}>
-                    We want to promote the growth of Limón province through new technologies in order to involve businesses to improve and streamline processes. 
+                    We want to promote the growth of Limón province through new technologies by involving businesses to improve and streamline processes. 
                   </Typography>
                 </Grid>
               </Grid>
@@ -320,7 +320,7 @@ const LandingPage = () => {
       <Box className={classes.copyrightWrapper}>
           <Box className={classes.copyrightContentWrapper}>
             <Typography variant="body1" component="p" color="secondary">
-              All rights reserved Sealabs Technology
+              All rights reserved Sealabs Technologies
             </Typography>
           </Box>
       </Box>
