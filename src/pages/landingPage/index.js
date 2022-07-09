@@ -1,18 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+
 import Box from '@mui/material/Box'
-import useStyles from './styles'
+import BuildIcon from '@mui/icons-material/Build';
+import CodeIcon from '@mui/icons-material/Code';
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Grid from '@mui/material/Grid';
+import IconButton from '@mui/material/IconButton';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Typography from '@mui/material/Typography';
 import { URL_IMAGES } from '../../constants'
 import Waves from '../../components/waves/inedx'
-
-import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
-
-import IconButton from '@mui/material/IconButton';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import CodeIcon from '@mui/icons-material/Code';
-import BuildIcon from '@mui/icons-material/Build';
-import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+import useStyles from './styles'
 
 const LandingPage = () => {
   const classes = useStyles()
@@ -75,12 +74,11 @@ const LandingPage = () => {
     return (
       <Box className={classes.headerWrapper} ref={refHome}>
           <Box className={classes.headerContentWrapper}>
-            <Typography variant="h1" component="h1" gutterBottom style={{color: '#fff'}}>
-              Who we are?
+            <Typography variant="h1" component="h1" gutterBottom className={classes.mainHerderTitle}>
+              Improve your business <br /> through digital transformation
             </Typography>
             <Typography variant="body1" component="p" gutterBottom className={classes.mainHederText} >
-              We are a software development startup located in Limón, Costa Rica. 
-              Our goal is to position ourselves in the technology industry, and strive to be recognized for providing quality services in a transparent and efficient manner.
+              We build personalized software solutions to suit your business needs ensuring quality and transparency. 
             </Typography>
             <Box>
                 <button onClick={goToServices} className={classes.primaryButtonWhite}>Services</button>
@@ -100,17 +98,23 @@ const LandingPage = () => {
                 About us
             </Typography>
             <Box style={{marginTop: '50px'}}>
-              <Grid container rowSpacing={3} columnSpacing={{ xs:12,  sm: 12, md: 12 }}>
+              <Grid container rowSpacing={8} columnSpacing={{ xs:12,  sm: 12, md: 12 }}>
+                <Grid item xs={12} md={12}>
+                  <Typography variant="h2" component="h2" color="secondary"  style={{marginBottom: '30px'}}>Who we are</Typography>
+                  <Typography variant="body1" component="p" style={{color: '#98A4B0', textAlign: 'justify'}}>
+                    We are a software development startup located in Limón, Costa Rica. Our goal is to position ourselves in the technology industry and strive to be recognized for providing quality services in a transparent and efficient manner.
+                  </Typography>
+                </Grid>
                 <Grid item xs={12} md={6}>
                   <Typography variant="h2" component="h2" color="secondary"  style={{marginBottom: '30px'}}>Mission</Typography>
                   <Typography variant="body1" component="p" style={{color: '#98A4B0', textAlign: 'justify'}}>
-                    We are passionate about local growth, so that through an exception service in software development we can expand and facilitate the tasks of our customers efficiently, safely and reliably.
+                    We are passionate about local growth, so that through an exceptional service in software development we can expand and facilitate our customers’ tasks efficiently, safely and reliably.
                   </Typography>
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <Typography variant="h2" component="h2" color="secondary" style={{marginBottom: '30px'}}>Vision</Typography>
                   <Typography variant="body1" component="p" style={{color: '#98A4B0', textAlign: 'justify'}}>
-                    We want to promote the growth of Limón province through new technologies in order to involve businesses to improve and streamline processes. 
+                    We want to promote the growth of Limón province through new technologies by involving businesses to improve and streamline processes. 
                   </Typography>
                 </Grid>
               </Grid>
@@ -125,10 +129,11 @@ const LandingPage = () => {
       <Box className={classes.callToActionWrapper}>
           <Box className={classes.headerContentWrapper}>
             <Typography variant="h1" component="h1" gutterBottom style={{color: '#fff'}}>
-              What we can do for you?
+              What can we do for you?
             </Typography>
             <Typography variant="body1" component="p" gutterBottom className={classes.mainTextCallToAction} >
-              We want to help your business grow by creating customizable and high quality software for our clients where we figure out the company needs.
+            We will help your business grow by creating customizable and high-quality software for an efficient streamlining of processes.
+
             </Typography>
             <Box>
                 <button onClick={goToContact} className={classes.primaryButton2White} >Contact us</button>
@@ -175,7 +180,7 @@ const LandingPage = () => {
                   </Box>
                   <Typography variant="h2" component="h2" color="secondary"  style={{marginBottom: '30px', textAlign: 'center'}}>Software Migration</Typography>
                   <Typography variant="body1" component="p" style={{color: '#98A4B0', textAlign: 'center'}}>
-                    We help you migrate your application to a new environmenty
+                    We help you migrate your application to a new environment
                   </Typography>
                 </Grid>
               </Grid>
@@ -233,7 +238,7 @@ const LandingPage = () => {
                   Start working with us
                 </Typography>
                 <Typography variant="body1" component="p"  color="secondary" >
-                  Our main goal is to give our clients the best performance of the service so they can approach to their customers by the best way.
+                  Our main goal is to provide our clients with the best service performance and come up with solutions for their digital transformation.
                 </Typography>
               </Grid>
               <Grid xs={12} md={6}>
@@ -316,7 +321,7 @@ const LandingPage = () => {
       <Box className={classes.copyrightWrapper}>
           <Box className={classes.copyrightContentWrapper}>
             <Typography variant="body1" component="p" color="secondary">
-              All rights reserved Sealabs Technology
+              All rights reserved Sealabs Technologies
             </Typography>
           </Box>
       </Box>
