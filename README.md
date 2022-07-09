@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Sealabs Technologies
+We are a software development startup located in Limón, Costa Rica. Our goal is to position ourselves in the technology industry, and strive to be recognized for providing quality services in a transparent and efficient manner.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+1. Sealabs Technologies
+2. Table of contents
+3. Version
+4. Project's main goal
+5. Technologies used
+6. Fie Structure 
+ 
+## Version
+1.0
 
-## Available Scripts
+## Project's main goal
+With this project, our intentions is to present ourselves and show the world our habilities to provide different services that make tasks much easier and more efficient, also we provide information so everyone interested to work with us can contact us.
 
-In the project directory, you can run:
+## Technologies used
+ - React.js - React 17, React Router 5
+ - Material-ui/core - React components for faster and easier web development.
+ - Core - React components for faster and easier web development.
+ - Lint - ESlint
+ - Styles - Material-UI Theme (customizable)
 
-### `npm start`
+### Prerequisites
+- `yarn`
+- `git`
+- `node.js`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
+1. Clone the repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ ```bash
+ git clone https://github.com/your_username_/Project-Name.git
+ ```
 
-### `npm test`
+ 2. Install yarn packages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+ ```bash
+ yarn install
+ ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 3. Run the project
+ 
+ ```bash
+ yarn start
+ ```
+ 
+## File Structure
+  ```.
+ ├── public
+ │ ├── favicon.ico
+ │ ├── index.html
+ | ├── manifest.json
+ | ├── robots.txt
+ | └── sitemap.xml
+ ├── src
+ │ ├── assests
+ │ ├── components/waves
+ │ ├── constants
+ │ ├── pages
+ │ ├── styles
+ │ ├── theme
+ │ ├── App.js
+ │ └── index.js
+ ├── .gitignore
+ ├── CNAME
+ ├── README.md
+ ├── package-lock.json
+ ├── package.json
+ ├── yarn.lock
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

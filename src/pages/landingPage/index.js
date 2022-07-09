@@ -133,6 +133,7 @@ const LandingPage = () => {
             </Typography>
             <Typography variant="body1" component="p" gutterBottom className={classes.mainTextCallToAction} >
             We will help your business grow by creating customizable and high-quality software for an efficient streamlining of processes.
+
             </Typography>
             <Box>
                 <button onClick={goToContact} className={classes.primaryButton2White} >Contact us</button>
