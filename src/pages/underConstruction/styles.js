@@ -1,26 +1,56 @@
 export default (theme) => ({
     wrapper: {
-      padding: '60px 0 0 60px',
-      display: 'flex',
-      ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
-        padding: '50px 0px 50px 0px',
-        justifyContent: 'center'
-      }
-    },
-    logoWrapper: {
-        width: '180px'
-    },
-    img: {
-        width: '100%'
-    },
-    contentWrapper:{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column'
     },
+    wrapperContent: {
+        width: '1200px',
+        ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
+            width: '90%'
+        }
+    },
+    logoWrapper: {
+        marginTop: '50px',
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'flex-start',
+        alignItems: 'flex-start',
+        flexDirection: 'column',
+        ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
+            marginTop: '40px',
+            justifyContent: 'center',
+            alignItems: 'center',
+        }
+    },
+    img: {
+        width: '200px',
+        ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
+            width: '150px'
+        }
+    },
+    vector:{
+        width: '100%'
+    },
+    content: {
+        marginTop:'50px'
+    },
+    leftGrid:{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'start',
+        flexDirection: 'column',
+        height: 'auto',
+    },
+    contentWrapper:{
+        display: 'flex',
+        justifyContent: 'start',
+        alignItems: 'start',
+        flexDirection: 'column'
+    },
     imageWrapper:{
-        width: '450px',
+        width: '1200px',
         ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
             width: '230px'
         }
@@ -28,51 +58,89 @@ export default (theme) => ({
     title:{
         margin: 0,
         padding:0,
-        fontWeight: '700',
-        fontSize: [50, "!important"],
-        color: '#0C4160',
-        textAlign: 'center',
+        fontWeight: '400 ',
+        fontSize: [40, "!important"],
+        color: '#151B25',
+        textAlign: 'left',
         fontFamily: [
-            'Montserrat',
+            'Poppins',
           ].join(','),
         ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
             fontSize: [25, "!important"],
-        }
+        }, 
+    },
+    titleBold: {
+        color: '#0077FF'
     },
     text:{
         fontWeight: '500',
-        fontSize: [18, "!important"],
-        color: '#98A4B0',
-        textAlign: 'center',
+        fontSize: [20, "!important"],
+        color: '#151B25',
+        textAlign: 'left',
         fontFamily: [
-            'Montserrat',
+            'Poppins',
           ].join(','),
         ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
-            padding: '0px 50px 0px 50px',
             fontSize: [14, "!important"],
         }
     },
+    linka:{
+        textDecoration: 'none'
+    },
+    buttonBox:{
+        marginTop:'25px',
+        ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
+            marginTop:'10px',
+        }
+    },
     contactButton:{
+        marginRight: '5px',
+        height:'50px',
+        padding: '0px 30px 0px 30px',
+        backgroundColor: '#0077FF',
+        color: 'white',
         textDecoration: 'none',
         cursor: 'pointer',
         transition: '0.3s',
-        marginTop: '25px',
-        padding: '20px 30px',
-        borderRadius: '5px',
-        border: 'solid 1px #21B6A8',
-        backgroundColor: '#21B6A8',
-        color: 'white',
+        borderRadius: '10px',
+        border: 'none',
+        fontSize: 20,
+        fontWeight: 600,
         fontFamily: [
-            'Montserrat',
+            'Poppins',
           ].join(','),
         ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
-            padding: '15px 25px',
-            fontSize: [14, "!important"],
+            height: '40px',
+            fontSize: [15, "!important"],
         },
         '&:hover': {
-            backgroundColor: '#fff',
-            border: 'solid 1px #21B6A8',
-            color: '#21B6A8',
+            backgroundColor: '#151B25',
+            color: 'white',
+        },
+    },
+    contactButton2:{
+        marginRight: '15px',
+        height:'50px',
+        padding: '0px 30px 0px 30px',
+        backgroundColor: 'white',
+        color: '#0077FF',
+        textDecoration: 'none',
+        cursor: 'pointer',
+        transition: '0.3s',
+        borderRadius: '10px',
+        border: 'solid 2px #0077FF',
+        fontSize: 20,
+        fontWeight: 600,
+        fontFamily: [
+            'Poppins',
+          ].join(','),
+        ['@media (max-width:900px)']: { // eslint-disable-line no-useless-computed-key
+            height: '40px',
+            fontSize: [15, "!important"],
+        },
+        '&:hover': {
+            border: 'solid 2px #151B25',
+            color: '#151B25',
         },
     }
 })

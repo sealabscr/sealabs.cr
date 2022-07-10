@@ -1,5 +1,5 @@
 import React from 'react';
-import LandingPage from './pages/landingPage';
+import UnderConstruction from './pages/underConstruction';
 import { ThemeProvider } from '@mui/material/styles';
 import getTheme from './theme';
 
@@ -8,7 +8,7 @@ const App = () => {
     
     return (    
         <ThemeProvider  theme={theme}>
-            <LandingPage />
+            <UnderConstruction />
         </ThemeProvider >
     );
 }
