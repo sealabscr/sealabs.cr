@@ -38,8 +38,8 @@ export default (theme) => ({
     },
     leftGrid:{
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'start',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
         flexDirection: 'column',
         height: 'auto',
     },
