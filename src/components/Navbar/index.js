@@ -93,7 +93,6 @@ export default function NavbarWrapper(props) {
           anchor='left'
           open={drawer}
           onClose={closeDrawer}
-          style={{zIndex: -1}}
         >
           <Box className={classes.listDrawerBox}>
             <List >

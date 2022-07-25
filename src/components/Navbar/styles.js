@@ -11,10 +11,12 @@ const useStyles = makeStyles( theme => ({
         backgroundColor: 'white',
         height: '100px',
         boxShadow: '0px 5px 50px rgba(0, 119, 255, 0.1)',
+        webkitBoxShadow: '0px 5px 50px rgba(0, 119, 255, 0.1)',
+        "-webkit-box-shadow": '0px 5px 50px rgba(0, 119, 255, 0.1)',
+        "-moz-box-shadow": '0px 5px 50px rgba(0, 119, 255, 0.1)',
         width:'100%',
         display: 'flex',
         justifyContent: 'center',
-        zIndex: '50',
         [themeBreakpoints.down('sm')]: {
             height: '100%',
         },
