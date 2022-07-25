@@ -1,5 +1,11 @@
 import React from 'react';
-import LandingPage from './pages/landingPage';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+  } from "react-router-dom"
+
+import Navbar from './components/Navbar'
 import { ThemeProvider } from '@mui/material/styles';
 import getTheme from './theme';
 
@@ -8,7 +14,13 @@ const App = () => {
     
     return (    
         <ThemeProvider  theme={theme}>
-            <LandingPage />
+                <Router>
+                    <Navbar />
+                    <Routes>
+                        <Route path="/">
+                        </Route>
+                    </Routes>
+                </Router>
         </ThemeProvider >
     );
 }
