@@ -1,19 +1,15 @@
-import React from 'react';
-
-//import Layout from '@theme/Layout';
-import clsx from 'clsx';
-import { URL_IMAGES } from '../../constants';
-
-import styles from './styles';
-import fontsStyles from '../../styles/fontStyles';
 import { Box, Grid, } from '@mui/material';
 
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CustomPrimaryButton from '../../components/CustomPrimaryButton';
 import CustomSecondaryButton from '../../components/CustomSecondaryButton'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-
-
+import React from 'react';
+import { URL_IMAGES } from '../../constants';
+//import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import fontsStyles from '../../styles/fontStyles';
+import styles from './styles';
 
 const Home = () => {
   const classes = styles()

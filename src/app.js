@@ -1,13 +1,13 @@
-import React from 'react';
 import {
+    Route,
     BrowserRouter as Router,
     Routes,
-    Route,
-  } from "react-router-dom"
+} from "react-router-dom"
 
-import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/home';
+import NavbarWrapper from "./components/Navbar";
+import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import getTheme from './theme';
 
@@ -17,7 +17,7 @@ const App = () => {
     return (    
         <ThemeProvider  theme={theme}>
                 <Router>
-                    <Navbar />
+                  <NavbarWrapper />
                     <Routes>
                         <Route path="/"  element={<Home />} />
                     </Routes>

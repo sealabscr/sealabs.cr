@@ -1,6 +1,5 @@
 import { DIMENSIONS } from '../../constants/';
 import breakpoints from '../../theme/breakpoints'
-
 import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
 import { makeStyles } from '@material-ui/styles'
 
@@ -14,6 +13,7 @@ const useStyles = makeStyles( theme => ({
         width:'100%',
         display: 'flex',
         justifyContent: 'center',
+        position: 'relative',
         zIndex: 3000,
         [themeBreakpoints.down('sm')]: {
             height: '100%',
@@ -73,7 +73,7 @@ const useStyles = makeStyles( theme => ({
     },
     listDrawerBox:{
         width:'250px',
-        marginTop: '70px'
+        marginTop: '80px'
     },
 }))
 
