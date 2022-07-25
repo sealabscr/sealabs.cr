@@ -1,8 +1,8 @@
+import { DIMENSIONS, URL_IMAGES } from '../../constants'
 
 import breakpoints from '../../theme/breakpoints'
 import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
 import { makeStyles } from '@material-ui/styles'
-import { DIMENSIONS, URL_IMAGES } from '../../constants'
 
 const themeBreakpoints = createBreakpoints(breakpoints)
 

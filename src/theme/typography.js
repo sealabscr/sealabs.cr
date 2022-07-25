@@ -1,6 +1,5 @@
-
-import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
 import breakpoints from './breakpoints'
+import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
 
 const themeBreakpoints = createBreakpoints(breakpoints)
 
@@ -12,7 +11,7 @@ const typography = {
       fontSize: 25,
     },
     fontFamily: [
-      'Montserrat',
+      'Poppins',
     ].join(','),
   },
   h2:{
@@ -22,7 +21,7 @@ const typography = {
       fontSize: 20,
     },
     fontFamily: [
-      'Montserrat',
+      'Poppins',
     ].join(','),
   },
   h3:{
@@ -32,7 +31,7 @@ const typography = {
       fontSize: 15,
     },
     fontFamily: [
-      'Montserrat',
+      'Poppins',
     ].join(','),
   },
   body1: {
@@ -42,7 +41,7 @@ const typography = {
       fontSize: 12,
     },
     fontFamily: [
-      'Montserrat',
+      'Poppins',
     ].join(','),
   }
 }
