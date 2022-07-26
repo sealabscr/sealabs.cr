@@ -42,7 +42,7 @@ const fontsStyles = makeStyles( theme => ({
     p:{
         margin: 0,
         fontSize: 20,
-        fontWeight: 400,
+        fontWeight: 300,
         color: "#151B25",
         fontFamily: [
           'Poppins',

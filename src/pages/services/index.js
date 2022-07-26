@@ -13,6 +13,8 @@ import clsx from 'clsx';
 import fontsStyles from '../../styles/fontStyles';
 import styles from './styles';
 import ItemWithIcon from '../../components/ItemWithIcon'
+import CardItem from '../../components/CardItem'
+
 
 const Services = () => {
   const classes = styles()
@@ -24,7 +26,7 @@ const Services = () => {
         <Box className={classes.servicesContentWrapper}>
           <Box>
             <h2 className={fontClasses.h2}>Our <b className={fontClasses.colorBlue}>Services</b> </h2>
-            <p className={clsx(fontClasses.p, classes.headerSubtitle)}>Through our different quality services, we can guide your business to improve in different areas. At Sealabs we try to take our clients ideas to help them innovate their business and establish themselves in the digital world.</p>
+            <p className={fontClasses.p}>Through our different quality services, we can guide your business to improve in different areas. At Sealabs we try to take our clients ideas to help them innovate their business and establish themselves in the digital world.</p>
             <Box className={classes.servicesBoxContent}>
               <Grid container spacing={8}>
                 <Grid item sm={12} md={4}>
@@ -78,9 +80,69 @@ const Services = () => {
     );
   }
 
+  const WhatWeDoComponent = () => {
+    return (
+      <Box className={classes.servicesWrapper}>
+        <Box className={classes.servicesContentWrapper}>
+          <Box>
+            <h2 className={fontClasses.h2}>What <b className={fontClasses.colorBlue}>We Do?</b> </h2>
+            <p className={fontClasses.p}>Here are some examples of what we offer to our customers.</p>
+            <Box className={classes.servicesBoxContent}>
+              <Grid container spacing={2}>
+                <Grid item sm={12} md={4} >
+                  <CardItem 
+                    icon={<EngineeringOutlinedIcon className={classes.buttonIcon} /> } 
+                    title="Websites"
+                    content="We promote your business idea by developing a customized website that can be adapted to all types of devices."
+                  />
+                </Grid>
+                <Grid item sm={12} md={4}>
+                  <CardItem 
+                    icon={<FormatListBulletedOutlinedIcon className={classes.buttonIcon} /> } 
+                    title="Web/Mobile apps"
+                    content="We develop web or mobile applications according to your needs to optimize your customers and employees’ tasks."
+                  />
+                </Grid>
+                <Grid item sm={12} md={4}>
+                  <CardItem 
+                    icon={<TaskOutlinedIcon className={classes.buttonIcon} /> } 
+                    title="E-commerce Solutions"
+                    content="Customize your e-commerce website applying the best performance and features for your business."
+                  />
+                </Grid>
+                <Grid item sm={12} md={4}>
+                  <CardItem 
+                    icon={<AccountTreeIcon className={classes.buttonIcon} /> } 
+                    title="Architecture"
+                    content="Integrate services and microservices for information technology system aligning them with your business goals."
+                  />
+                </Grid>
+                <Grid item sm={12} md={4}>
+                  <CardItem 
+                    icon={<DesignServicesIcon className={classes.buttonIcon} /> } 
+                    title="Consulting Services"
+                    content="Provide solutions for Information Technology services problems a business can face in maintenance, development, and management."
+                  />
+                </Grid>
+                <Grid item sm={12} md={4}>
+                  <CardItem 
+                    icon={<SupportAgentIcon className={classes.buttonIcon} /> } 
+                    title="Marketing & SEO"
+                    content="Provide your business the opportunity to market your brand and expand your services to the target customers."
+                  />
+                </Grid>
+              </Grid>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+    );
+  }
+
   return (
     <Box>
         <ServicesComponent />
+        <WhatWeDoComponent />
     </Box>
   );
 }
