@@ -30,7 +30,7 @@ const styles = makeStyles( theme => ({
         },
     },
     servicesBoxContent:{
-        marginTop:'100px',
+        marginTop:'50px',
         [themeBreakpoints.down('sm')]: {
             marginTop:'50px',
         },
