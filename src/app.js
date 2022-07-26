@@ -7,6 +7,7 @@ import {
 import Footer from './components/Footer'
 import Home from './pages/home';
 import Services from './pages/services';
+import AboutUs from './pages/aboutUs';
 import NavbarWrapper from "./components/Navbar";
 import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
@@ -22,6 +23,7 @@ const App = () => {
                     <Routes>
                         <Route path="/"  element={<Home />} />
                         <Route path="/services"  element={<Services />} />
+                        <Route path="/about"  element={<AboutUs />} />
                     </Routes>
                     <Footer />
                 </Router>
