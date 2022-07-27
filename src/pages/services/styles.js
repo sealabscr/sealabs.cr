@@ -48,6 +48,65 @@ const styles = makeStyles( theme => ({
             width:'100%',
         },
     },
+    whatWeDoWrapper:{
+        backgroundColor: 'white',
+        height: '100%',
+        width:'100%',
+        display: 'flex',
+        justifyContent: 'center',
+        [themeBreakpoints.down('sm')]: {
+            height: '100%',
+        },
+    },
+    whatWeDoContentWrapper:{
+        width: DIMENSIONS.MAIN_WRAPPER,
+        display: 'flex',
+        alignItems: 'center',
+        paddingTop: '100px',
+        paddingBottom: '100px',
+        [themeBreakpoints.down('sm')]: {
+            width: "90%",
+            paddingTop: '50px',
+            paddingBottom: '50px'
+        },
+    },
+    techWrapper:{
+        backgroundColor: 'white',
+        height: '100%',
+        width:'100%',
+        display: 'flex',
+        justifyContent: 'center',
+        [themeBreakpoints.down('sm')]: {
+            height: '100%',
+        },
+    },
+    techWrapperContentWrapper:{
+        width: DIMENSIONS.MAIN_WRAPPER,
+        display: 'flex',
+        alignItems: 'center',
+        paddingTop: '150px',
+        paddingBottom: '150px',
+        [themeBreakpoints.down('sm')]: {
+            width: "90%",
+            paddingTop: '50px',
+            paddingBottom: '50px'
+        },
+    },
+    techBoxContent:{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop:'80px',
+        [themeBreakpoints.down('sm')]: {
+            marginTop:'50px',
+        },
+    },
+    insideContent: {
+        width: DIMENSIONS.SUB_WRAPPER,
+        [themeBreakpoints.down('sm')]: {
+            width: "90%",
+        },
+    },
 }))
 
 export default styles
