@@ -4,6 +4,7 @@ export const URL_LOGO_SEALABS_BLUE = "https://raw.githubusercontent.com/sealabsc
 export const URL_LOGO_SEALABS_DARK = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/logo_selabs_dark.png"
 
 export const URL_IMG_LANDINGPAGE_HEADER = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/background_header.webp"
+export const URL_IMG_SECTION_HEADER = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/section_background_header.png"
 export const VECTOR_PM_SECTION = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_project_managment.webp"
 export const VECTOR_PM_SECTION_VERTICAL = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_project_managment_vertical.webp"
 export const VECTOR_ST_LOCATION_MAP = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/background_st_location.webp"

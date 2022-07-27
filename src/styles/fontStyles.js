@@ -36,7 +36,7 @@ const fontsStyles = makeStyles( theme => ({
           'Poppins',
         ].join(','),
         [themeBreakpoints.down('md')]: {
-            fontSize: 25,
+            fontSize: 15,
           },
     },
     p:{
