@@ -11,6 +11,7 @@ import NavbarWrapper from "./components/Navbar";
 import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import getTheme from './theme';
+import Careers from "./pages/careers";
 
 const App = () => {
     const theme = getTheme()
@@ -22,6 +23,7 @@ const App = () => {
                     <Routes>
                         <Route path="/"  element={<Home />} />
                         <Route path="/services"  element={<Services />} />
+                        <Route path="/Careers"  element={<Careers />} />
                     </Routes>
                     <Footer />
                 </Router>

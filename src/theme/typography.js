@@ -8,25 +8,25 @@ const typography = {
     fontSize: 40,
     fontWeight: 700,
     [themeBreakpoints.down('md')]: {
-      fontSize: 25,
-    },
-    fontFamily: [
-      'Poppins',
-    ].join(','),
-  },
-  h2:{
-    fontSize: 25,
-    fontWeight: 700,
-    [themeBreakpoints.down('md')]: {
       fontSize: 20,
     },
     fontFamily: [
       'Poppins',
     ].join(','),
   },
-  h3:{
-    fontSize: 22,
+  h2:{
+    fontSize: 30,
     fontWeight: 700,
+    [themeBreakpoints.down('md')]: {
+      fontSize: 18,
+    },
+    fontFamily: [
+      'Poppins',
+    ].join(','),
+  },
+  h3:{
+    fontSize: 20,
+    fontWeight: 600,
     [themeBreakpoints.down('md')]: {
       fontSize: 15,
     },
@@ -36,9 +36,9 @@ const typography = {
   },
   body1: {
     fontSize: 20,
-    fontWeight: 500,
+    fontWeight: 400,
     [themeBreakpoints.down('md')]: {
-      fontSize: 12,
+      fontSize: 15,
     },
     fontFamily: [
       'Poppins',
