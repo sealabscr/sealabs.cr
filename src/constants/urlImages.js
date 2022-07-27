@@ -8,4 +8,6 @@ export const VECTOR_PM_SECTION = "https://raw.githubusercontent.com/sealabscr/pu
 export const VECTOR_PM_SECTION_VERTICAL = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_project_managment_vertical.webp"
 export const VECTOR_ST_LOCATION_MAP = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/background_st_location.webp"
 export const VECTOR_DEVICES_WHITE = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_devices_white.webp"
+export const VECTOR_TECH_HORIZONTAL = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_technologies_horizontal.png"
+export const VECTOR_TECH_VERTICAL = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_technologies_vertical.png"
 

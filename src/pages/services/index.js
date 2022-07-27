@@ -82,8 +82,8 @@ const Services = () => {
 
   const WhatWeDoComponent = () => {
     return (
-      <Box className={classes.servicesWrapper}>
-        <Box className={classes.servicesContentWrapper}>
+      <Box className={classes.whatWeDoWrapper}>
+        <Box className={classes.whatWeDoContentWrapper}>
           <Box>
             <h2 className={fontClasses.h2}>What <b className={fontClasses.colorBlue}>We Do?</b> </h2>
             <p className={fontClasses.p}>Here are some examples of what we offer to our customers.</p>
@@ -139,10 +139,34 @@ const Services = () => {
     );
   }
 
+  const ThecnologiesComponent = () => {
+    return (
+      <Box className={classes.servicesWrapper}>
+        <Box className={classes.servicesContentWrapper}>
+          <Box>
+            <h2 className={fontClasses.h2}>We Adapt To The <b className={fontClasses.colorBlue}>Newest Technologies</b> </h2>
+            <p className={fontClasses.p}>In Sealabs we offer an extensive stack of technologies and tools to provide improvements and create solutions for your business.</p>
+            <Box className={classes.techBoxContent}>
+              <Box className={classes.insideContent}>
+                <Box sx={{ display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex', xl: 'flex'} }}>
+                  <img style={{width: '100%'}} src={URL_IMAGES.VECTOR_TECH_HORIZONTAL} alt ="Project managnmet life cicle" />
+                </Box>
+                <Box sx={{ display: { xs: 'flex', sm: 'flex', md: 'none', lg: 'none', xl: 'none'} }}>
+                  <img style={{width: '100%'}} src={URL_IMAGES.VECTOR_TECH_VERTICAL} alt ="Project managnmet life cicle" />
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+    );
+  }
+
   return (
     <Box>
         <ServicesComponent />
         <WhatWeDoComponent />
+        <ThecnologiesComponent />
     </Box>
   );
 }
