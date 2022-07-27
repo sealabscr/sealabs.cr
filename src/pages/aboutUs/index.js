@@ -75,7 +75,7 @@ const AboutUs = () => {
         return (
             <Box className={classes.teamCardsWrapper}>
                 <Box className={classes.teamCardsContentWrapper}>
-                    <h1 className={fontClasses.h1}>Our Team</h1>
+                    <h2 className={fontClasses.h2}>Our Team</h2>
                     <p className={clsx(fontClasses.p, classes.headerSubtitle)} >We build personalized software solutions to suit your business needs ensuring quality and transparency.</p>
                     <Grid container>                   
                         <Grid items md={6} >

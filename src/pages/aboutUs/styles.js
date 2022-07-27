@@ -48,7 +48,7 @@ const styles = makeStyles( theme => ({
         paddingTop: '150px',
         paddingBottom: '150px',
         [themeBreakpoints.down('sm')]: {
-            width: "100%",
+            width: "90%",
             paddingTop: '50px',
             paddingBottom: '50px'
         },

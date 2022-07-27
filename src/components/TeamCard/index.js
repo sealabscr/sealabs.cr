@@ -12,20 +12,20 @@ const TeamCard = ( { name, image, title, content }) => {
 
   return ( 
     <Box className={classes.cardBox}>
-        <Box className={classes.imageBox}>
-            
-            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg" alt="Girl in a jacket" width="570" height="400"></img>
-        </Box>
-        <Box >
-          <p className={fontClasses.p}><b>{name}</b></p>
-          <p className={fontClasses.p}><b>{title}</b></p>
-                  
-          {<LinkedInIcon className={classes.buttonIcon} /> }
-          
+        <Box>            
+            <img className={classes.imageBox} src="https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg" alt="Girl in a jacket"></img>
         </Box>
         <Box className={classes.contentBox}>
-            <p className={clsx(fontClasses.p, classes.contentText)}>{content}</p>
+          <Box>
+            <p className={fontClasses.p}><b>{name}</b></p>
+            <p className={fontClasses.p}><b>{title}</b></p>                  
+            {<LinkedInIcon className={classes.linkedInIcon} /> }          
+          </Box>
+          <Box className={classes.descriptionBox}>
+              <p className={clsx(fontClasses.p, classes.contentText)}>{content}</p>
+          </Box>
         </Box>
+        
     </Box>
   );
 }
