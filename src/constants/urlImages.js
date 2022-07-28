@@ -12,3 +12,7 @@ export const VECTOR_DEVICES_WHITE = "https://raw.githubusercontent.com/sealabscr
 export const VECTOR_TECH_HORIZONTAL = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_technologies_horizontal.png"
 export const VECTOR_TECH_VERTICAL = "https://raw.githubusercontent.com/sealabscr/public-assets/main/sealabs.cr/vector_technologies_vertical.png"
 
+export const TEAM_MEMBER_JOSS = "https://github.com/sealabscr/public-assets/raw/main/sealabs.cr/team_member_joss.jpg"
+export const TEAM_MEMBER_JEAN = "https://github.com/sealabscr/public-assets/raw/main/sealabs.cr/team_member_jean.jpg"
+export const TEAM_MEMBER_SAMUEL = "https://github.com/sealabscr/public-assets/raw/main/sealabs.cr/tem_member_samuel.jpg"
+export const TEAM_MEMBER_AXEL = "https://github.com/sealabscr/public-assets/raw/main/sealabs.cr/tem_member_axel.jpg"

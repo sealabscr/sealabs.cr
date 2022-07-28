@@ -72,7 +72,6 @@ const Services = () => {
                   />
                 </Grid>
               </Grid>
-              
             </Box>
           </Box>
         </Box>

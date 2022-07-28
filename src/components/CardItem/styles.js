@@ -9,7 +9,7 @@ const themeBreakpoints = createBreakpoints(breakpoints)
 const useStyles = makeStyles( theme => ({
     cardbox:{
         backgroundColor: 'white',
-        boxShadow: 'rgba(0, 119, 255, 0.1) 0px 6px 24px 0px, rgba(0, 0, 0, 0.01) 0px 0px 0px 1px;x',
+        boxShadow: 'rgba(0, 119, 255, 0.1) 0px 6px 24px 0px, rgba(0, 0, 0, 0.01) 0px 0px 0px 1px;',
         display: 'flex',
         alignItems: 'center',
         paddingLeft: '35px',
