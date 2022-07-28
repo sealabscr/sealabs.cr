@@ -48,7 +48,7 @@ const Contact = () => {
         <Box className={classes.servicesContentWrapper}>
           <Box>
             <h1 className={fontClasses.h1}>How Can We Help You?</h1>
-            <p className={clsx(fontClasses.p, classes.headerSubtitle)}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className={clsx(fontClasses.p, classes.headerSubtitle)}>We will be happy to help you and appreciate you selecting us for any business need you want to target. Use the bottom below to explore our services:</p>
             <Box className={classes.headerButtonsBox}>
               <CustomPrimaryButton label="Services" url={"/services/"} icon={<ArrowForwardRoundedIcon className={classes.buttonIcon} /> }/> 
             </Box>
@@ -67,19 +67,13 @@ const Contact = () => {
               <form onSubmit={onSubmit} noValidate autoComplete="off">
                     <Grid container spacing={4}>
                         <Grid item xs={12} sm={12} md={6}>  
-                         
                             <TextField fullWidth name='from_name' value={toSend.from_name} onChange={handleChange} id="standard-basic" label="Full Name" variant='standard'/>
-                          
                         </Grid>
                         <Grid item xs={12} sm={12} md={6}>
-                         
                             <TextField fullWidth id="standard-basic" label="Last Name" variant='standard'/>
-                          
                         </Grid>  
                         <Grid item xs={12} sm={12} md={6}>  
-                          
                             <TextField fullWidth id="standard-basic" label="Phone" variant='standard'/>
-                          
                         </Grid>
                         <Grid item xs={12} sm={12} md={6}>
                         <FormControl variant="standard" sx={{ minWidth: 120, width: '100%'}}>
@@ -97,12 +91,9 @@ const Contact = () => {
                         </FormControl>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12}>  
-                         
                             <TextField name='reply_to' value={toSend.reply_to} onChange={handleChange} fullWidth id="standard-basic" label="Email" variant='standard'/>
-                          
                         </Grid>
                         <Grid item xs={12} sm={12} md={12}>  
-                          
                             <TextField 
                               id="standard-multiline-static"
                               label="Message"
@@ -113,10 +104,8 @@ const Contact = () => {
                               fullWidth
                               name='message' value={toSend.message} onChange={handleChange}
                             />
-                          
                         </Grid>      
                     </Grid>
-                    
                     <Grid className={classes.placingEnd} container spacing={4}>
                       <Grid item xs={12} sm={12} md={8} className={classes.sendEmailBtn}>  
                           <Box className={classes.sendEmailAgreeText}> 
