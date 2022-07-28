@@ -92,7 +92,7 @@ const Careers = () => {
           <Box className={classes.resultsBox}>
             <Box className={classes.insideContent}>
               <h3 className={fontClasses.h3}>Lorem Ipsum</h3>
-              <p className={clsx(fontClasses.p, classes.filterButton)}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className={fontClasses.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </Box>
           </Box>
         </Box>

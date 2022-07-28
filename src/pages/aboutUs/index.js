@@ -77,40 +77,42 @@ const AboutUs = () => {
                 <Box className={classes.teamCardsContentWrapper}>
                     <h2 className={fontClasses.h2}>Our Team</h2>
                     <p className={clsx(fontClasses.p, classes.headerSubtitle)} >We build personalized software solutions to suit your business needs ensuring quality and transparency.</p>
-                    <Grid container>                   
-                        <Grid items md={6} >
-                            <TeamCard 
-                                name= "Jean Vega"
-                                image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
-                                title="Software Engineers"
-                                content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
-                            />
+                    <Box className={classes.insideContent}>
+                        <Grid container spacing={4}>                   
+                            <Grid item md={6} >
+                                <TeamCard 
+                                    name= "Jean Vega"
+                                    image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
+                                    title="Software Engineers"
+                                    content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
+                                />
+                            </Grid>
+                            <Grid item md={6} >
+                                <TeamCard 
+                                    name= "Josh Johnson"
+                                    image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
+                                    title="Software Engineers"
+                                    content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
+                                />
+                            </Grid>
+                            <Grid item md={6}>
+                                <TeamCard 
+                                    name= "gilbert"
+                                    image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
+                                    title="Software Engineers"
+                                    content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
+                                />
+                            </Grid>
+                            <Grid item md={6}>
+                                <TeamCard 
+                                    name= "Axel el mas saico Mairena"
+                                    image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
+                                    title="Software Engineers"
+                                    content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
+                                />
+                            </Grid>
                         </Grid>
-                        <Grid items md={6} >
-                            <TeamCard 
-                                name= "Josh Johnson"
-                                image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
-                                title="Software Engineers"
-                                content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
-                            />
-                        </Grid>
-                        <Grid items md={6}>
-                            <TeamCard 
-                                name= "gilbert"
-                                image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
-                                title="Software Engineers"
-                                content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
-                            />
-                        </Grid>
-                        <Grid items md={6}>
-                            <TeamCard 
-                                name= "Axel el mas saico Mairena"
-                                image= "https://ichef.bbci.co.uk/news/976/cpsprodpb/877B/production/_126038643_gettyimages-1048896140.jpg"
-                                title="Software Engineers"
-                                content="Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales."
-                            />
-                        </Grid>
-                    </Grid>
+                    </Box>  
                 </Box>
             </Box>
         );

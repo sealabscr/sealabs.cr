@@ -42,9 +42,7 @@ const styles = makeStyles( theme => ({
     },
     teamCardsContentWrapper:{
         width: DIMENSIONS.MAIN_WRAPPER,
-        display: 'flex',
-        alignItems: 'left',
-        flexDirection: 'column',
+
         paddingTop: '150px',
         paddingBottom: '150px',
         [themeBreakpoints.down('sm')]: {
@@ -57,6 +55,13 @@ const styles = makeStyles( theme => ({
         textAlign: 'justify',
         [themeBreakpoints.down('sm')]: {
             width:'100%',
+        },
+    },
+    insideContent:{
+        width: DIMENSIONS.SUB_WRAPPER,
+        backgroundColor: 'red',
+        [themeBreakpoints.down('sm')]: {
+            width: "90%",
         },
     },
     whoWeAreBoxContent:{
