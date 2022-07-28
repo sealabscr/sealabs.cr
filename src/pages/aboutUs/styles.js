@@ -1,4 +1,4 @@
-import { DIMENSIONS, URL_IMAGES } from '../../constants'
+import { DIMENSIONS } from '../../constants'
 
 import breakpoints from '../../theme/breakpoints'
 import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
@@ -22,7 +22,7 @@ const styles = makeStyles( theme => ({
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column',
-        paddingTop: '150px',
+        paddingTop: '100px',
         paddingBottom: '100px',
         [themeBreakpoints.down('sm')]: {
             width: "90%",
@@ -36,13 +36,13 @@ const styles = makeStyles( theme => ({
         width:'100%',
         display: 'flex',
         justifyContent: 'center',
+        alignItems: 'center',
         [themeBreakpoints.down('sm')]: {
             height: '100%',
         },
     },
     teamCardsContentWrapper:{
         width: DIMENSIONS.MAIN_WRAPPER,
-
         paddingTop: '150px',
         paddingBottom: '150px',
         [themeBreakpoints.down('sm')]: {
@@ -57,9 +57,17 @@ const styles = makeStyles( theme => ({
             width:'100%',
         },
     },
+    teamContent:{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop:'80px',
+        [themeBreakpoints.down('sm')]: {
+            marginTop:'50px',
+        },
+    },
     insideContent:{
         width: DIMENSIONS.SUB_WRAPPER,
-        backgroundColor: 'red',
         [themeBreakpoints.down('sm')]: {
             width: "90%",
         },
