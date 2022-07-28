@@ -22,8 +22,8 @@ const Careers = () => {
       <Box className={classes.careerWrapper}>
         <Box className={classes.careerContentWrapper}>
           <Box>
-            <h1 className={fontClasses.h1}>Current Job Openings </h1>
-            <p className={clsx(fontClasses.p, classes.headerSubtitle)}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h1 className={fontClasses.h1}>Current Job Openings</h1>
+            <p className={clsx(fontClasses.p, classes.headerSubtitle)}>Feel like you fit in Sealabs? Explore our career opportunities and join us.</p>
             <Box className={classes.headerButtonsBox}>
               <CustomPrimaryButton label="Linkedin" url={"https://www.linkedin.com/company/sealabscr/"} icon={<LinkedInIcon className={classes.buttonIcon} /> }/> 
             </Box>
@@ -91,8 +91,8 @@ const Careers = () => {
           </Box>
           <Box className={classes.resultsBox}>
             <Box className={classes.insideContent}>
-              <h3 className={fontClasses.h3}>Lorem Ipsum</h3>
-              <p className={clsx(fontClasses.p, classes.filterButton)}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h3 className={fontClasses.h3}>Join Us</h3>
+              <p className={clsx(fontClasses.p, classes.filterButton)}>There are no jobs available at the moment.</p>
             </Box>
           </Box>
         </Box>
