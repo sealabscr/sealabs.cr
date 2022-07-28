@@ -33,7 +33,7 @@ export default function FooterWrapper(props) {
                     <CustomButtonPrimary />
                   </Grid>
                 </Grid>
-                <p className={classes.newsletterMessage}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                <p className={classes.newsletterMessage}>Sealabs respects your privacy. Your email will be used to provide information about our services. You can unsubscribe from our newsletter at any time.</p>
               </Box>
             </Box>
           </Grid>
@@ -75,7 +75,7 @@ export default function FooterWrapper(props) {
             </Box>
           </Grid>
           <Grid item md={4} xs={12}>
-            <p className={classes.footerRights}>All rights reserved Sealabs Technologies</p>
+            <p className={classes.footerRights}>© 2022 Sealabs. All rights reserved Sealabs Technologies</p>
           </Grid>
         </Grid>
       </Box>
